@@ -1,2 +1,3 @@
-# Ignore the .vscode folder
+# Ignore
 .vscode/
+.cs50lib/
