@@ -1,9 +1,9 @@
 #include <cs50.h>
 #include <stdio.h>
 
-const int N = 3; //It is common to declare global variables at the beginning
+const int N = 3; //It is common to declare global variables at the beginning - Magic Number
 
-float average(int length, int array[]); // I need to declare a prototype 'cause I'll
+float average(int length, int array[]); // I need to declare a prototype 'cause I'll make it after main
 
 int main(void)
 {
