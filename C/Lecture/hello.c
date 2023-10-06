@@ -1,15 +1,21 @@
-#include "cs50lib/cs50.h"
-#include <stdio.h>
+# include <cs50.h>
+# include <stdio.h>
+
+int main(void)
+{
+    string answer = get_string("What's your name? ");
+    printf("Hello, 100%%!\n");
+}
 
 // I need to tell C the type of answer
 // get_string comes from cs50 library
-int main(void)
-{
-    string answer = get_string("What is your name? ");
-    printf("Hello, %s!\n", answer);
-    printf("Hello, hello!\n");
-    string first = get_string("What is your first name? ");
-    string last = get_string("What is your last name? ");
-    printf("Hello, %s %s\n", first, last);
-    printf("I got 100%%\n");
-}
+// int main(void)
+// {
+//     string answer = get_string("What is your name? ");
+//     printf("Hello, %s!\n", answer);
+//     printf("Hello, hello!\n");
+//     string first = get_string("What is your first name? ");
+//     string last = get_string("What is your last name? ");
+//     printf("Hello, %s %s\n", first, last);
+//     printf("I got 100%%\n");
+// }

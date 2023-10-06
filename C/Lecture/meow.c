@@ -1,6 +1,34 @@
 #include <stdbool.h>
 #include <stdio.h>
 
+
+int main(void)
+{
+    // to use true in C i need a library stdbool
+    while (true)
+    {
+        printf("meow\n");
+    }
+    // while (1)
+    // {
+    //     printf("meow\n");
+    // }
+    // for (int i = 0; i < 3; i++)
+    // {
+    //     printf("meow\n");
+    // }
+}
+
+// int main(void)
+// {
+//     int i = 0;
+//     while (i < 3)
+//     {
+//         printf("meow\n");
+//         i++;
+//     }
+// }
+
 // Print meow 3 times
 /*
 int main(void)
@@ -37,11 +65,11 @@ int main(void)
 
 // Forever loop
 // To use the 'true' keyword, use <stdbool.h> library
-int main(void)
-{
-    while (true)
-    {
-        printf("meow\n");
-    }
+// int main(void)
+// {
+//     while (true)
+//     {
+//         printf("meow\n");
+//     }
       
-}
+// }

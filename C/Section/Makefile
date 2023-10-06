@@ -1,6 +1,6 @@
 CC=gcc
 CFLAGS=-I.
-LIBS=cs50lib/cs50.c
+LDLIBS=-lcs50
 
 %: %.c
-	$(CC) -o $@ $< $(LIBS) $(CFLAGS)
+	$(CC) -o $@ $< $(CFLAGS) $(LDLIBS)
