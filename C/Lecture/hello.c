@@ -3,8 +3,8 @@
 
 int main(void)
 {
-    string answer = get_string("What's your name? ");
-    printf("Hello, 100%%!\n");
+    string answer = get_string("What is your name? ");
+    printf("Hello, %s\n", answer);
 }
 
 // I need to tell C the type of answer
