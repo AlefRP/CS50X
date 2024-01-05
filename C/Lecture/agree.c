@@ -9,7 +9,7 @@ int main(void)
     {
         printf("Agreed.\n");
     }
-    else if (c == 'n' || c == 'Y')
+    else if (c == 'n' || c == 'N')
     {
         printf("Not agreed.\n");
     }
@@ -42,7 +42,7 @@ int main(void)
 //     {
 //         printf("Agreed.\n");
 //     }
-//     else if (c == 'y')
+//     else if (c == 'Y')
 //     {
 //         printf("Agreed.\n");
 //     }
@@ -58,6 +58,7 @@ int main(void)
 // }
 
 // The or '||' operator
+// The and '&&' operator
 // int main(void)
 // {
 //     char c = get_char("Do you agree?");
