@@ -1,22 +1,47 @@
 #include <cs50.h>
 #include <stdio.h>
 
+// int main(void)
+// {
+//     // int n = 3;
+//     //const int n = 3; // can't change
+
+//     // Get size of grid
+//     int n;
+//     do
+//     {
+//         int n = get_int("Size: ");
+//     } while (n < 1);
+
+//     // Print grid of bricks
+//     for (int i = 0; i < n; i++)
+//     {
+//         for (int j = 0; j < n; j++)
+//         {
+//             printf("#");
+//         }
+//         printf("\n");
+//     }
+// }
+
+// int main(void)
+// {
+//     printf("???");
+// }
+
+
 int main(void)
 {
-    // int n = 3;
-    //const int n = 3; // can't change
-
-    // Get size of grid
     int n;
     do
     {
-        int n = get_int("Size: ");
-    } while (n < 1);
-
-    // Print grid of bricks
-    for (int i = 0; i < n; i++)
+        n = get_int("Size: ");
+    }
+    while (n < 1);
+    
+    for (int j = 0; j < n; j++)
     {
-        for (int j = 0; j < n; j++)
+        for (int i = 0; i < n; i++)
         {
             printf("#");
         }
@@ -26,12 +51,36 @@ int main(void)
 
 // int main(void)
 // {
-//     for (int i = 0; i < 3; i++)
+//     // const int n = 5;
+//     int n = get_int("Size: ");
+//     while (n < 1 )
 //     {
-//         printf("#\n");
+//         n = get_int("Size: ");
+//     }
+
+//     for (int j = 0; j < n; j++)
+//     {
+//         for (int i = 0; i < n; i++)
+//         {
+//             printf("#");
+//         }
+//         printf("\n");
 //     }
 // }
 
+// int main(void)
+// {
+//     // int n = 5;
+//     const int n = 5;
+//     for (int j = 0; j < n; j++)
+//     {
+//         for (int i = 0; i < n; i++)
+//         {
+//             printf("#");
+//         }
+//         printf("\n");
+//     }
+// }
 
 /* int main(void)
 {
