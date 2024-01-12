@@ -2,21 +2,24 @@
 #include <stdio.h>
 #include <string.h>
 
+int string_length(string s);
+
 int main(void)
 {
-    /* string name = get_string("What's your name? ");
+    string name = get_string("What's your name? ");
+    // int length = string_length(name);
 
+    // With string.h library
+    int length = strlen(name);
+    printf("%i\n", length);
+}
+
+int string_length(string s)
+{
     int n = 0;
-    while (name[n] != '\0')
+    while (s[n] != '\0')
     {
         n++;
     }
-    printf("%i\n", n); */
-
-
-    // With string.h library
-    string name = get_string("What's your name? ");
-
-    int n = strlen(name);
-    printf("%i\n", n);
+    return n;
 }
