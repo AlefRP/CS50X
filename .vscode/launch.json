@@ -1,7 +1,7 @@
 {
     /**
-    * This is a configuration file for the Visual Studio Code debugger specifically tailored for C++ projects.
-    * It sets up the environment for building and debugging C++ code using GCC (GNU Compiler Collection) and GDB (GNU Debugger).
+    * This is a configuration file for the Visual Studio Code debugger specifically tailored for C projects.
+    * It sets up the environment for building and debugging C code using GCC (GNU Compiler Collection) and GDB (GNU Debugger).
     *
     * "version": Specifies the configuration file format version.
     * "configurations": An array of debug configurations.
