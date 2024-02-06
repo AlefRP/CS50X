@@ -2,7 +2,8 @@
     "files.associations": {
         "string.h": "c",
         "string_view": "c",
-        "typeinfo": "c"
+        "typeinfo": "c",
+        "numbers": "c"
     },
     "remote.autoForwardPortsFallback": 0
 }

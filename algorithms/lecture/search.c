@@ -8,6 +8,7 @@ int main(void)
 
     string s = get_string("String: ");
 
+    // Linear search
     for (int i = 0; i < 6; i++)
     {
         if (strcmp(strings[i], s) == 0)
