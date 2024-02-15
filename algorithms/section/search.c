@@ -22,7 +22,7 @@ int main(void)
     candidates[2].name = "Inno";
     candidates[2].votes = 7;
 
-    // TODO: Find highest number of votes
+    // Find highest number of votes
     int highest_votes = 0;
     for (int i = 0; i < num_candidates; i++)
     {
@@ -31,5 +31,14 @@ int main(void)
             highest_votes = candidates[i].votes;
         }
     }
+    printf("%i\n", highest_votes);
     
+    // Print name of candidate with highest votes
+    for (int i = 0; i < num_candidates; i++)
+    {
+        if (candidates[i].votes == highest_votes)
+        {
+            printf("%s\n", candidates[i].name);
+        }
+    }
 }
