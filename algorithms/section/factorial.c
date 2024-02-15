@@ -1,3 +1,4 @@
+#include <cs50.h>
 #include <stdio.h>
 
 // Declaration
@@ -5,7 +6,13 @@ int factorial(int n);
 
 int main(void)
 {
-    int n = 5;
+    int n;
+    do
+    {
+        n = get_int("n: ");
+    } 
+    while (n <= 0);
+    
     printf("%i\n", factorial(n));
 }
 
@@ -16,9 +23,7 @@ int factorial(int n)
     {
         return 1;
     }
+    
     // recursive case
-    else
-    {
-        return n * (n - 1);
-    }
+    return n * factorial(n - 1);
 }
