@@ -1,11 +1,28 @@
 #include <cs50.h>
 #include <stdio.h>
 
+// typedef struct
+// {
+//     char *s;
+// }
+// string;
+
 int main(void)
 {
-    string s = "HI!";
+    // string s = "HI!";
     // It was always char *s = "HI!";
-    printf("%s\n", s);
+    char *s = "HI!";
+
+    // Print using pointer syntax
+    printf("%c", *s);
+    printf("%c", *(s + 1));
+    printf("%c\n", *(s + 2));
+
+    // printf("%c", s[0]);
+    // printf("%c", s[1]);
+    // printf("%c\n", s[2]);
+
+    // printf("%s\n", s);
     // printf("%p\n", s);
     // printf("%p\n", &s[0]);
     // printf("%p\n", &s[1]);
